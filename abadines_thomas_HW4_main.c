@@ -1,3 +1,20 @@
+/**************************************************************
+* Class:  CSC-415-02 Fall 2021
+* Name: Thomas Abadines
+* Student ID: 918674489
+* GitHub ID: tabadines00
+* Project: Assignment 4 – Word Blast
+*
+* File: abadines_thomas_HW3_main.c
+*
+* Description: This program counts the amount of words in
+*              a specified file that have a length greater
+*              than 6. It counts using multiple threads
+*              specified by the user on the command line.
+*              The top 10 words are shown on the terminal.
+*
+**************************************************************/
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
